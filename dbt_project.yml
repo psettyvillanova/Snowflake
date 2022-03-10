@@ -28,7 +28,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 config-version: 2
 vars:
-    salesforce_schema: 'SALESFORCE_SF'
+    salesforce_schema: 'SALESFORCE'
     salesforce_database: 'NA_ENTERPRISE_DEV'
 
 
