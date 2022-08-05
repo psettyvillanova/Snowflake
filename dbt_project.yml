@@ -28,8 +28,11 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 config-version: 2
 vars:
-    salesforce_schema: 'SALESFORCE'
-    salesforce_database: 'NA_ENTERPRISE_DEV'
+    salesforce_schema: 'praveen_sf_sandbox'
+    facebook_ads_database: 'dbt-technical-training'
+    #salesforce_database: 'NA_ENTERPRISE_DEV'
 
-
-
+config-version: 2
+vars:
+    facebook_ads_schema: 'caterpillar_fb_demo'
+    facebook_ads_database: 'dbt-technical-training' 
